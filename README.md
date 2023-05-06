@@ -34,7 +34,7 @@ This command will install the necessary Python packages, including Flask and the
 
 **4. Set the API Key:**
 
-Open the `app.py` file in a text editor and locate the line that sets the OpenAI API key:
+Open the `main.py` file in a text editor and locate the line that sets the OpenAI API key:
 
 ```python
 openai.api_key = "sk-.."
@@ -47,7 +47,7 @@ Replace `"sk-.."` with your actual OpenAI API key.
 Execute the following command in your terminal to start the Flask development server:
 
 ```
-$ python app.py
+$ python main.py
 ```
 
 The application should now be running locally on `http://localhost:5000/`.
